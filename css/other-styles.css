@@ -1,0 +1,47 @@
+@font-face{
+    font-family:noto-sans;
+    src:url(/public/assets/fonts/NotoSans-Regular.ttf);
+}
+@font-face{
+    font-family:recoleta-semibold;
+    src:url(/public/assets/fonts/Recoleta-SemiBold.woff) format("woff");
+}
+h1{
+    font-size:48px;
+    font-family:recoleta-semibold;
+}
+h2{
+    font-size: 28px;
+    font-family: recoleta-semibold;
+}
+p,a{
+    font-size:16px;
+    font-family:noto-sans;
+}
+section,header,footer{
+    display:flex;
+    justify-content: center;
+}
+header,.production,.cta{
+    background-color: #173a24;
+    color:#f7f6f3;
+}
+.story,.services,.ebook,footer{
+    background-color: #f7f6f3;
+    color: #173a24;
+}
+.costumes,.pricing{
+    background-color: #f2efe6;
+    color: #173a24;
+}
+.header-button{
+    background-color: #198b37;
+    color:#f7f6f3;
+}
+.pink-button{
+    background-color: #fac8b4;
+    color: #173a24;
+}
+ion-icon{
+    color:#198b37;
+}
